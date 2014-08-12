@@ -1,0 +1,107 @@
+body {
+    background: #eee;
+    text-align: center;
+    padding: 0 25px;
+    font-family: arial, sans-serif;
+}
+
+#main {
+    width: 500px;
+    margin: auto 400px;
+    text-align: left;
+    background: white;
+    padding: 5px 5px;
+    border: solid #ddd;
+    border-radius: 4px;
+    border-width: 0 1px 1px 1px;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#main h1 span {
+    font-style:italic;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+form {
+    padding-top: 5px;
+    width: 99%;
+}
+
+form input[type=text] {
+    font-size: 12px;
+    width: 100%;
+}
+
+.chatBox{
+    background-color: #666;
+    margin: auto;
+    max-width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.chat {
+    margin: auto auto auto -41px;
+    min-height: 50px;
+    background-color: #eee;
+    border: 1px solid grey;
+    border-radius: 2px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.chat .username {
+    font-weight: 800;
+    color: blue;
+    margin: 5px;
+}
+.chat p {
+    margin: 5px;
+    max-width: 80%;
+}
+time{
+    float: right;
+    margin: 0px 5px auto auto;
+}
+.chat .username:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spinner {
+    float: right;
+    height: 46px;
+    margin-bottom: 5px;
+}
+
+.spinner img {
+    padding: 10px;
+}
+
+.rooms {
+    margin: -23px auto;
+    float:right;
+    width: 100px;
+}
